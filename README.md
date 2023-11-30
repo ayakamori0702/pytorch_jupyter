@@ -1,9 +1,10 @@
 # pytorch_jupyter
 pytorchをjupyterでGPUを使って動かすためのツール
 
---
-推奨環境 
-CUDA Version: 12.2  
+---
+
+推奨環境
+- CUDA Version: 12.2  
 
 ## 入っているパッケージ一覧  
 ```
