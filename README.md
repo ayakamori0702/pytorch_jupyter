@@ -4,35 +4,40 @@ pytorchをjupyterでGPUを使って動かすためのツール
 --
 推奨環境 
 CUDA Version: 12.2  
+
 ## 入っているパッケージ一覧  
+```
 torch == 2.0.1
 torchaudio == 2.0.2
 torchvision == 0.15.2
 seaborn == 0.13.0
 scikit-learn == 1.3.1 
+```
 
 ## dockerの立ち上げ方
 <ローカル>
 
-1.Githubから必要なものをclone,またはダウンロードしてくる
+### 1.Githubから必要なものをclone,またはダウンロードしてくる
 
-$ git@github.com:ayakamori0702/pytorch_jupyter.git
+    $ git@github.com:ayakamori0702/pytorch_gpu.git
 
 ダウンロードする場合は、ほしいversionのtagからzipかtarをダウンロード
-
 必要なスクリプトやデータがあれば、pytorch_jupyterフォルダに追加
 
-2.dockerfileをbuildする
+### 2.dockerfileをbuildする
 
-$ docker build -t amori/pytorch_jupyter:v0.0.0 docker
+    $ docker build -t amori/pytorch_gpu:v0.0.0 docker
 
-確かめるとき $ docker images
+確かめるとき 
 
-3.docker runする
+    $ docker images
 
-$ ./run.sh  
+### 3.docker runする
+
+    $ ./run.sh  
+
 このとき、run.shの リポジトリ名:タグ名 またはイメージID が合っているか確認する. 
 
-4.GPU動作確認  
+### 4.GPU動作確認  
 
-$python3 check_cuda.py
+    $ python3 check_cuda.py
