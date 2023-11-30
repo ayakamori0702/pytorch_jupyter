@@ -16,7 +16,7 @@ scikit-learn == 1.3.1
 
 1.Githubから必要なものをclone,またはダウンロードしてくる
 
-$ git@github.com:ayakamori0702/pytorch_gpu.git
+$ git@github.com:ayakamori0702/pytorch_jupyter.git
 
 ダウンロードする場合は、ほしいversionのtagからzipかtarをダウンロード
 
@@ -24,7 +24,7 @@ $ git@github.com:ayakamori0702/pytorch_gpu.git
 
 2.dockerfileをbuildする
 
-$ docker build -t amori/pytorch_gpu:v0.0.0 docker
+$ docker build -t amori/pytorch_jupyter:v0.0.0 docker
 
 確かめるとき $ docker images
 
