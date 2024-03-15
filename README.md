@@ -20,7 +20,7 @@ scikit-learn == 1.3.1
 
 ### 1.Githubから必要なものをclone,またはダウンロードしてくる
 
-    $ git@github.com:ayakamori0702/pytorch_gpu.git
+    $ git clone https://github.com/ayakamori0702/pytorch_jupyter.git
 
 ダウンロードする場合は、ほしいversionのtagからzipかtarをダウンロード
 必要なスクリプトやデータがあれば、pytorch_jupyterフォルダに追加
@@ -39,6 +39,3 @@ scikit-learn == 1.3.1
 
 このとき、run.shの リポジトリ名:タグ名 またはイメージID が合っているか確認する. 
 
-### 4.GPU動作確認  
-
-    $ python3 check_cuda.py
