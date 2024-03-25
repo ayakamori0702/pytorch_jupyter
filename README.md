@@ -27,7 +27,7 @@ scikit-learn == 1.3.1
 
 ### 2.dockerfileをbuildする
 
-    $ docker build -t amori/pytorch_gpu:v0.0.0 docker
+    $ docker build -t amori/pytorch_jupyter:v0.0.0 docker
 
 確かめるとき 
 
