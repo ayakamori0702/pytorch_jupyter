@@ -20,22 +20,22 @@ scikit-learn == 1.3.1
 
 ### 1.Githubから必要なものをclone,またはダウンロードしてくる
 
-    $ git clone https://github.com/ayakamori0702/pytorch_jupyter.git
+    git clone https://github.com/ayakamori0702/pytorch_jupyter.git
 
 ダウンロードする場合は、ほしいversionのtagからzipかtarをダウンロード
 必要なスクリプトやデータがあれば、pytorch_jupyterフォルダに追加
 
 ### 2.dockerfileをbuildする
 
-    $ docker build -t amori/pytorch_jupyter:v0.0.0 docker
+    docker build -t amori/pytorch_jupyter:v0.0.0 docker
 
 確かめるとき 
 
-    $ docker images
+    docker images
 
 ### 3.docker runする
 
-    $ ./run.sh  
+    ./run.sh  
 
 このとき、run.shの リポジトリ名:タグ名 またはイメージID が合っているか確認する. 
 
